@@ -7,27 +7,26 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">#80CBC4</item>
     </style>
-    <style name="textpoint" >
+
+    <style name="textpoint">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAppearance" >@android:style/TextAppearance.Medium</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
         <item name="android:layout_marginTop">30dp</item>
-        <item name="android:layout_marginLeft" >20dp</item>
-        <item name="android:drawableLeft" >@drawable/point</item>
-        <item name="android:drawablePadding" >5dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:drawableLeft">@drawable/point</item>
+        <item name="android:drawablePadding">5dp</item>
     </style>
-<style name="scorebutton" >
-<item name="android:layout_width" >wrap_content</item>
-<item name="android:layout_height" >wrap_content</item>
-<item name="android:textAllCaps" >true</item>
 
-    <item name="android:layout_marginTop" >30dp</item>
-    <item name="android:layout_marginLeft" >30dp</item>
+    <style name="scorebutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
 
-</style>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
 
-
-
+    </style>
 
 
 </resources>

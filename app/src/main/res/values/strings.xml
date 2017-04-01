@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">football</string>
-    <string name="team1" >Team A .</string>
-    <string name="team2" >Team B .</string>
+    <string name="team1">Team A .</string>
+    <string name="team2">Team B .</string>
 
-    <string name="point" >point : </string>
+    <string name="point">point : </string>
 
-    <string name="fouls" >fouls : </string>
+    <string name="fouls">fouls : </string>
 
-    <string name="Score" >Score</string>
-    <string name="foul" >foul</string>
-    <string name="reset" >reset..</string>
+    <string name="Score">Score</string>
+    <string name="foul">foul</string>
+    <string name="reset">reset..</string>
 
-    <string name="Team2" >Team 2 is win</string>
-    <string name="Team1" >Team 1 is win</string>
-    <string name="draw" >draw ... </string>
+    <string name="Team2">Team 2 is win</string>
+    <string name="Team1">Team 1 is win</string>
+    <string name="draw">draw ... </string>
 
 </resources>
