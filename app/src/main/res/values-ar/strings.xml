@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كره القدم</string>
+    <string name="Score">النتيجه</string>
+    <string name="fouls">اخطاء:</string>
+    <string name="point">نقاط :</string>
+    <string name="reset">جديد ..</string>
+    <string name="team1">فريق أ</string>
+    <string name="team2">فريق ب</string>
+</resources>
