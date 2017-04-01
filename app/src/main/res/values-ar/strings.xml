@@ -7,4 +7,8 @@
     <string name="reset">جديد ..</string>
     <string name="team1">فريق أ</string>
     <string name="team2">فريق ب</string>
+    <string name="foul">الاخطاء</string>
+    <string name="Team1">الفريق الاول الفائز</string>
+    <string name="Team2">الفريق التانى الفائز</string>
+    <string name="draw">التعادل</string>
 </resources>

@@ -10,6 +10,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
 
+
+
+
     TextView p1,p2,f1,f2;
     Button s1,s2,res;
     public int point1=0,point2=0;
@@ -52,13 +55,13 @@ s1=(Button)findViewById(R.id.score1);
 public void reset_action(View view){
 
     if(point1>point2){
-        Toast.makeText(this,"team 1 is win",Toast.LENGTH_LONG);
+        Toast.makeText(this, getString(R.string.Team1),Toast.LENGTH_LONG).show();
 
 
-    }else if(point1<point2){        Toast.makeText(this,"team 2 is win",Toast.LENGTH_LONG);
+    }else if(point1<point2){        Toast.makeText(this,getString(R.string.Team2),Toast.LENGTH_LONG).show();
     }else
     {
-        Toast.makeText(this,"Draw ....",Toast.LENGTH_LONG);
+        Toast.makeText(this,getString(R.string.draw),Toast.LENGTH_LONG).show();
 
     }
 
@@ -72,6 +75,8 @@ public void reset_action(View view){
     display_Point2(point2);
     display_foul1(foul1);
     display_foul2(foul2);
+    Toast.makeText(this,"Done ....",Toast.LENGTH_LONG).show();
+
 
 }
     public void f1_action(View v){
